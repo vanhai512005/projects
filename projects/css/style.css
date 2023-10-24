@@ -1,4 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    padding-left: 150px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+.menu{
+    
+    margin: auto;
+    
+    background-color: white;
+    width: 150px;
+    left: 0;
+    bottom: auto;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.menu ul li {
+    line-height: 2.9em;
+    height: 2.9em;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
 body{
     margin: 0;
     padding: 0;
@@ -88,8 +124,8 @@ input:focus{
     margin: 0 auto;
 }
 #gallery img{
-    width: 300px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
     border-radius: 3px;
     border: 8px solid #fff;
     margin: 6px;
