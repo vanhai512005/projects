@@ -15,7 +15,7 @@
     margin: auto;
     
     background-color: white;
-    width: 150px;
+    width: 1500px;
     left: 0;
     bottom: auto;
 }
@@ -193,10 +193,7 @@ th.descending:after{
     height: 50px;
     margin-right: 10px;
 }
-.location{
-    padding-left: 74px;
-    background-image: url('../img/pointer.png');
-    background-repeat: no-repeat;
-    background-position: 60px 1px;
-    font-size: 90%;
+.logo img {
+    width: 150px;
+    height: 150px;
 }
